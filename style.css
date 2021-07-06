@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "BackToTheFuture";
+  src: url("./back_to_the_future/BTTF.ttf");
+}
+
+#nav-bar {
+  width: 4rem;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  background-color: #b14f76;
+}
+
+#Movie-title {
+  background: url(https://i.postimg.cc/g2ypmM6S/DKNG-GATEFOLD-BTTF1-1024x1024.png)
+    no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "BackToTheFuture";
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+h1 {
+  color: #f9e6da;
+  font-size: 5rem;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f4b72c, #ee8628);
+  margin-left: 4rem;
+  padding-bottom: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  transform: rotate(90deg);
+  font-size: 1.2em;
+  color: #f9e6da;
+}
+
+.section {
+  position: relative;
+  border: solid 0.5rem #cb5d2d;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  font-family: "BackToTheFuture";
+}
+
+#Synopsis-trailer {
+  background-color: #f9e6da;
+}
+
+#Summary {
+  background-color: #cfd9d0;
+}
+
+#overview {
+  max-height: 30rem;
+  overflow-y: scroll;
+}
+
+#Characters {
+  background-color: #9aa56b;
+}
+
+.card {
+  background-color: #f9e6da;
+  border-radius: 0.5rem;
+}
+
+#Soundtrack {
+  background: url(https://i.postimg.cc/vHM19Qp3/Body.png) no-repeat;
+  background-size: cover;
+}
+
+table,
+tr,
+td,
+th {
+  border: 2px double black;
+}
+
+#soundtrack-table {
+  width: 50%;
+  margin: 0 auto 1.5rem auto;
+}
+
+#Crew {
+  background-color: #6f8185;
+}
+
+#crew-image {
+  margin-bottom: 1rem;
+}
+
+#Quote {
+  background-color: #f9e6da;
+}
+
+.hide-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #cb5d2d;
+}
+.hidden-state {
+  visibility: hidden;
+  max-height: 2rem;
+}
